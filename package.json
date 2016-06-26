@@ -1,0 +1,19 @@
+{
+  "name": "books-management",
+  "version": "1.0.0",
+  "description": "This plays role server just like web framework to render webpage. We can use other web framework: Java Spring, Django, Rails, ...",
+  "main": "index.js",
+  "configs": {
+    "nodemon": "./node_modules/.bin/nodemon"
+  },
+  "scripts": {
+    "start": "nodemon --harmony server.js"
+  },
+  "author": "David Nguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2"
+  }
+}
